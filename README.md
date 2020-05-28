@@ -55,7 +55,7 @@ https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/
 Duplicate value in trees - Insert at right subtree so that inorder traversal gives stable sort - number which is inserted later appears later in the result.
 
 ##**LinkedList**
-####*Iterators*
+#### *Iterators*
 
 Iterate through a linked list using Iterators:
 https://beginnersbook.com/2013/12/how-to-loop-linkedlist-in-java/
@@ -75,7 +75,7 @@ i.next() gives the value, if you again do i.next(), it will get the next value.
 
 ## **Queue**
 
-####*Poll() method*
+#### *Poll() method*
 The poll() method of Queue Interface returns and removes the element at the front of the container. It deletes the element in the container. The method does not throw an exception when the Queue is empty, it returns null instead.
 
 Used in BFS - *Dequeue*
@@ -129,14 +129,14 @@ while (iter.hasNext()) {
     System.out.println("[Key] : " + entry.getKey() + " [Value] : " + entry.getValue());
 }
 ```
-####*Get key set and value from key*
+#### *Get key set and value from key*
 ```
 for(int key: map.keySet()){
     int value = map.get(key);
 }
 ```
 
-##**Convert int to long in java**
+## **Convert int to long in java**
 ```
 int i=100;  
 long l1= new Long(i);//first way
@@ -147,7 +147,7 @@ long l3 = Math.abs(Long.valueOf(i));
 
 ```
 
-##**StringBuilder Methods**
+## **StringBuilder Methods**
 
 * **insert method** - public StringBuilder insert(int offset, char c)
 Inserts the character c at the index denoted by offset.
@@ -185,9 +185,9 @@ int index = str.indexOf("For");
 System.out.println("index of string 'For' = "
                     + index); // answer: 5
 ```
-##**Set**
+## **Set**
 
-####**Add method**
+#### **Add method**
 If element does not exist in set, it is added and return true
 Else returns false
 ```
@@ -198,7 +198,7 @@ Set<String> s = new HashSet<String>();
 s.add("Welcome");
 ```
 
-##**Division**
+## **Division**
 To divide two integers and get the float value do the below:
 ```
 int a = 1;
@@ -206,19 +206,19 @@ int b = 2;
 double ans = (double)(a/b);
 ```
 
-##**String**
+## **String**
 
-####**Split string by whiteSpace**
+#### **Split string by whiteSpace**
 ```
 String[] textWords = text.split(" ");
 ```
 
-####**Remove whitespace from beginning and end of string**
+#### **Remove whitespace from beginning and end of string**
 ```
 str.trim()
 ```
 
-####**Capitalize first letter of string**
+#### **Capitalize first letter of string**
 ```
 String str = "hello world!";
 
@@ -237,19 +237,19 @@ Arrays.sort(textWords, Comparator.comparingInt(String::length));
 Arrays.sort(textWords, (a,b) -> Integer.compare(a.length(), b.length()));
 ```
 
-####**Convert char array to String**
+#### **Convert char array to String**
 ```
 char[] array = s.toCharArray();
 String new = new String(array);
 ```
 Note: Do Not Use arr.toString() - will return the reference of the new string and not the string itself.
 
-####**Sorting of arrays - API**
+#### **Sorting of arrays - API**
 ```
 public static void sort(Object[] a, int fromIndex, int toIndex)
 ```
 
-##**HashSet**
+## **HashSet**
 
 containsAll() method:
 check whether two sets contain the same elements or not. It takes one set as a parameter and returns True if all of the elements of this set is present in the other set.
@@ -258,33 +258,33 @@ check whether two sets contain the same elements or not. It takes one set as a p
 set1.containsAll(set2);
 
 
-##**Comparison**
+## **Comparison**
 
-####**Arrays**
+#### **Arrays**
 Below is used to check of 2 arrays are equal:
 ```
 if(Arrays.equals(array1, array2)){
     System.out.println(“equal array”);
 }
 ```
-####**Hashmaps**
+#### **Hashmaps**
 Below is used to check if 2 hashmaps are equal:
 ```
 if(map1.equals(map2)){
     System.out.println(“equal hashmap”);
 }
 ```
-##**Sort an ArrayList**
+## **Sort an ArrayList**
 ```
 ArrayList<Integer> list = new ArrayList<>();
 Collections.sort(list);
 ```
 Character array of 128 characters to compare ASCII characters since ASCII has 128 characters and extended ASCII has 256 characters.
 
-##**Random class**
-####**nextInt()**
+## **Random class**
+#### **nextInt()**
 Returns the next pseudorandom, uniformly distributed int value from this random number generator's sequence.
 
-####**nextInt(int bound)**
+#### **nextInt(int bound)**
 Returns a pseudorandom, uniformly distributed int value between 0 (inclusive) and the specified value (exclusive), drawn from this random number generator's sequence.
 https://docs.oracle.com/javase/8/docs/api/java/util/Random.html
