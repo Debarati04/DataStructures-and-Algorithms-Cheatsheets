@@ -1,11 +1,11 @@
-#A few of the most commonly used data structures and their methods in Java
+# A few of the most commonly used data structures and their methods in Java
 
-##**Trees**
+## **Trees**
 Understanding O(log n) and basic recursive algo of binary tree:
 * http://www.cs.gettysburg.edu/~ilinkin/courses/Fall-2012/cs216/notes/bintree.pdf
 * https://www.youtube.com/watch?v=pcKY4hjDrxk
 
-####*BFS*
+#### *BFS*
 * DEQUEUE used
 * Level order traversal
 * Use queue and put left and right child and dequeue it and add to result
@@ -15,7 +15,7 @@ Understanding O(log n) and basic recursive algo of binary tree:
 * Space complexity: best: O(1), worst: O(n/2)=O(n)
 https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/
 
-######Binary Tree Level Order Traversal
+###### Binary Tree Level Order Traversal
 Algorithm:
 ```
 Take a global variable of list of lists - levels
@@ -33,7 +33,7 @@ if(root.right is not null)
    Call helper(root.right, level+1)
 ```
 
-####*DFS*
+#### *DFS*
 * STACK used
 * Push element in stack
 * When pushed, add to result
@@ -44,7 +44,7 @@ if(root.right is not null)
 * Space complexity: best: O(log n) - avg. height of tree worst: O(n)
 https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/
 
-######DFS traversals
+###### DFS traversals
 1. Inorder (DFS: left, self, right)
 2. Postorder (DFS: left, right, self)
 3. Preorder (DFS: self, left, right)
@@ -67,13 +67,13 @@ while (i.hasNext()) {
 ```
 i.next() gives the value, if you again do i.next(), it will get the next value.
 
-####*Poll() method*
+#### *Poll() method*
 
 1. poll() : This method retrieves and removes the head (first element) of this list.
 2. pollFirst() : This method retrieves and removes the first element of this list, or returns null if this list is empty.
 3. pollLast() : This method retrieves and removes the last element of this list, or returns null if this list is empty.
 
-##**Queue**
+## **Queue**
 
 ####*Poll() method*
 The poll() method of Queue Interface returns and removes the element at the front of the container. It deletes the element in the container. The method does not throw an exception when the Queue is empty, it returns null instead.
@@ -93,16 +93,16 @@ System.out.println("Queue: " + Q);
 // print head and deletes the head
 System.out.println("Queue's head: " + Q.poll());
 ```
-##**SubArray Sum**
+## **SubArray Sum**
 
-####Maximum Subarray Sum
+#### Maximum Subarray Sum
 https://hackernoon.com/kadanes-algorithm-explained-50316f4fd8a6
 
-####Circular subarray sum:
+#### Circular subarray sum:
 https://leetcode.com/problems/maximum-sum-circular-subarray/discuss/633401/Kadane-Algorithm-Trick-beats-100-Java-Explained
 
 
-##**HashMap**
+## **HashMap**
 ####*Iterate a HashMap*
 https://mkyong.com/java/java-how-to-iterate-a-hashmap/
 
