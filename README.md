@@ -114,14 +114,16 @@ Map<String, String> map = new HashMap<>();
     map.forEach((key, value) -> System.out.println("[Key] : " + key + " [Value] : " + value));
 ```
 2. Normal for loop in entrySet
-```Map<String, String> map = new HashMap<>();
+```
+Map<String, String> map = new HashMap<>();
 
 for (Map.Entry<String, String> entry : map.entrySet()) {
     System.out.println("[Key] : " + entry.getKey() + " [Value] : " + entry.getValue());
 }
 ```
 3. Iterator - classic
-```Map<String, String> map = new HashMap<>();
+```
+Map<String, String> map = new HashMap<>();
 
 Iterator iter = map.entrySet().iterator();
 while (iter.hasNext()) {
