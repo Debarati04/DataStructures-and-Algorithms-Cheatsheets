@@ -224,9 +224,10 @@ String str = "hello world!";
 
 // capitalize first letter
 String output = str.substring(0, 1).toUpperCase() + str.substring(1);
+```
 
-Sort String array based on length of the string -  Use Comparator
-
+#### **Sort String array based on length of the string -  Use Comparator**
+```
 //doing this will sort the strings lexicographically
 Arrays.sort(textWords)
 
