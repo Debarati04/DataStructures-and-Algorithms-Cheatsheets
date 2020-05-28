@@ -98,7 +98,7 @@ System.out.println("Queue's head: " + Q.poll());
 #### Maximum Subarray Sum
 https://hackernoon.com/kadanes-algorithm-explained-50316f4fd8a6
 
-#### Circular subarray sum:
+#### Circular subarray sum
 https://leetcode.com/problems/maximum-sum-circular-subarray/discuss/633401/Kadane-Algorithm-Trick-beats-100-Java-Explained
 
 
