@@ -1,4 +1,4 @@
-# A few of the most commonly used data structures and their methods in Java
+# Compilation of a few of the most commonly used data structures and their methods in Java
 
 ## **Trees**
 Understanding O(log n) and basic recursive algo of binary tree:
@@ -42,6 +42,7 @@ if(root.right is not null)
 * Repeat till stack is empty
 * Time complexity: O(n)
 * Space complexity: best: O(log n) - avg. height of tree worst: O(n)
+
 https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/
 
 ###### DFS traversals
@@ -51,10 +52,9 @@ https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/
 
 https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/
 
-
 Duplicate value in trees - Insert at right subtree so that inorder traversal gives stable sort - number which is inserted later appears later in the result.
 
-##**LinkedList**
+## **LinkedList**
 #### *Iterators*
 
 Iterate through a linked list using Iterators:
@@ -103,7 +103,7 @@ https://leetcode.com/problems/maximum-sum-circular-subarray/discuss/633401/Kadan
 
 
 ## **HashMap**
-####*Iterate a HashMap*
+#### *Iterate a HashMap*
 https://mkyong.com/java/java-how-to-iterate-a-hashmap/
 
 3 ways:
