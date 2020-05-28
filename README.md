@@ -172,8 +172,7 @@ After insertion = Tutorials
 The indexOf(String str) method of StringBuilder class is the inbuilt method used to return the index within the String for first occurrence of passed substring as parameter. If substring str is not present then -1 is returned.
 
 ```
-StringBuilder str
-    = new StringBuilder("GeeksForGeeks");
+StringBuilder str = new StringBuilder("GeeksForGeeks");
 
 // print string
 System.out.println("String contains = " + str);
@@ -182,8 +181,7 @@ System.out.println("String contains = " + str);
 int index = str.indexOf("For");
 
 // print results
-System.out.println("index of string 'For' = "
-                    + index); // answer: 5
+System.out.println("index of string 'For' = "+ index); // answer: 5
 ```
 ## **Set**
 
