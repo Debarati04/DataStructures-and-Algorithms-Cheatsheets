@@ -289,3 +289,7 @@ Returns the next pseudorandom, uniformly distributed int value from this random 
 #### **nextInt(int bound)**
 Returns a pseudorandom, uniformly distributed int value between 0 (inclusive) and the specified value (exclusive), drawn from this random number generator's sequence.
 https://docs.oracle.com/javase/8/docs/api/java/util/Random.html
+
+## **Bit Manipulation**
+
+Binary representation of -K (negative number K) as a N-bit number is concat(1,2<sup>N-1<sup> - K).
