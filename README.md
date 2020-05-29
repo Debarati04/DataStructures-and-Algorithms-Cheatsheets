@@ -296,3 +296,4 @@ https://docs.oracle.com/javase/8/docs/api/java/util/Random.html
 * Left shift is equivalent to multiplication by 2
 * Right shift is equivalent to division by 2
 
+https://www.youtube.com/watch?v=NLKQEOgBAnw
