@@ -294,6 +294,7 @@ https://docs.oracle.com/javase/8/docs/api/java/util/Random.html
 
 * Binary representation of -K (negative number K) as a N-bit number is concat(1,2<sup>N-1</sup> - K).
 * Left shift is equivalent to multiplication by 2
-* Right shift is equivalent to division by 2
+* Logical Right shift is shifting bits and putting 0 in most significant bit.
+* Arithmetic Right shift is equivalent to division by 2 and adding 1 (shifts bits to right and fills new bits with value of sign bit)
 
 https://www.youtube.com/watch?v=NLKQEOgBAnw
