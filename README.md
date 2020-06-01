@@ -93,6 +93,15 @@ System.out.println("Queue: " + Q);
 // print head and deletes the head
 System.out.println("Queue's head: " + Q.poll());
 ```
+#### *Offer() method*
+Inserts the specified element into this queue if it is possible to do so immediately without violating capacity restrictions. This method is preferable to add() method since this method does not throws an exception when the capacity of the container is full since it returns false.
+```
+if (Q.offer(10)) 
+            System.out.println("The Queue is not full"
+                               + " and 10 is inserted"); 
+        else
+            System.out.println("The Queue is full"); 
+```
 ## **SubArray Sum**
 
 #### Maximum Subarray Sum
@@ -136,6 +145,11 @@ while (iter.hasNext()) {
 for(int key: map.keySet()){
     int value = map.get(key);
 }
+```
+#### *computeIfAbsent*
+Compute value for a given key using the given mapping function, if key is not already associated with a value (or is mapped to null) and enter that computed value in Hashmap else null.
+```
+map.computeIfAbsent("key5", k -> 2000 + 33000);
 ```
 
 ## **Convert int to long in java**
