@@ -312,3 +312,11 @@ https://docs.oracle.com/javase/8/docs/api/java/util/Random.html
 * Arithmetic Right shift is equivalent to division by 2 and adding 1 (shifts bits to right and fills new bits with value of sign bit)
 
 https://www.youtube.com/watch?v=NLKQEOgBAnw
+
+## **Dynamic Programming**
+
+* Top-down (Memoization)
+* Bottom-Up (Tabulation)
+https://www.geeksforgeeks.org/tabulation-vs-memoization/
+https://cs.stackexchange.com/questions/2644/is-there-a-difference-between-top-down-and-bottom-up-dynamic-programming
+https://www.youtube.com/watch?v=NFJ3m9a1oJQ
