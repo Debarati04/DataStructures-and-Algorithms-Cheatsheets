@@ -289,12 +289,21 @@ if(map1.equals(map2)){
     System.out.println(“equal hashmap”);
 }
 ```
-## **Sort an ArrayList**
+## **ArrayList**
+
+#### **Sort an ArrayList**
 ```
 ArrayList<Integer> list = new ArrayList<>();
 Collections.sort(list);
 ```
 Character array of 128 characters to compare ASCII characters since ASCII has 128 characters and extended ASCII has 256 characters.
+
+#### **Add two ArrayLists**
+
+```
+arrlist1 = {2,4,6};
+arrlist2 = {3,5,7};
+arrlist1.addAll(arrlist2) // {2,4,6,3,5,7}
 
 ## **Random class**
 #### **nextInt()**
