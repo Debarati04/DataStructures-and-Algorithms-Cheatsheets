@@ -330,3 +330,7 @@ https://www.youtube.com/watch?v=NLKQEOgBAnw
 https://www.geeksforgeeks.org/tabulation-vs-memoization/
 https://cs.stackexchange.com/questions/2644/is-there-a-difference-between-top-down-and-bottom-up-dynamic-programming
 https://www.youtube.com/watch?v=NFJ3m9a1oJQ
+
+## **Heaps**
+
+* Implemented using Priority Queue
