@@ -226,6 +226,10 @@ double ans = (double)(a/b);
 ```
 String[] textWords = text.split(" ");
 ```
+#### **Remove whitespaces from a String**
+public String replace(char oldch, char newch)
+public String replaceAll(String regex, String replace_str)
+public String replaceFirst(String regex, String replace_str)
 
 #### **Remove whitespace from beginning and end of string**
 ```
@@ -304,6 +308,7 @@ Character array of 128 characters to compare ASCII characters since ASCII has 12
 arrlist1 = {2,4,6};
 arrlist2 = {3,5,7};
 arrlist1.addAll(arrlist2) // {2,4,6,3,5,7}
+```
 
 ## **Random class**
 #### **nextInt()**
@@ -334,3 +339,4 @@ https://www.youtube.com/watch?v=NFJ3m9a1oJQ
 ## **Heaps**
 
 * Implemented using Priority Queue
+
