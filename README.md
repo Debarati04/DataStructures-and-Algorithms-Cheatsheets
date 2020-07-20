@@ -346,3 +346,6 @@ https://www.youtube.com/watch?v=NFJ3m9a1oJQ
 Regex is expensive, avoid wherever possible to improve runtime.
 Example: replaceAll uses regex
 
+## **Notes**
+
+ArrayList has indexOf method, Array does not have this method.
