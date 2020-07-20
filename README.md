@@ -227,9 +227,11 @@ double ans = (double)(a/b);
 String[] textWords = text.split(" ");
 ```
 #### **Remove whitespaces from a String**
+```
 public String replace(char oldch, char newch)
 public String replaceAll(String regex, String replace_str)
 public String replaceFirst(String regex, String replace_str)
+```
 
 #### **Remove whitespace from beginning and end of string**
 ```
