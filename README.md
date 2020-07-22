@@ -348,4 +348,5 @@ Example: replaceAll uses regex
 
 ## **Notes**
 
-ArrayList has indexOf method, Array does not have this method.
+1. ArrayList has indexOf method, Array does not have this method.
+2. Javadocs recommends to use ArrayDeque, and not Stack as a stack implementation
