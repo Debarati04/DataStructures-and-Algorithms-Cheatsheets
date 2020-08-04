@@ -277,7 +277,15 @@ check whether two sets contain the same elements or not. It takes one set as a p
 
 // all elements of set2 are present in set1
 set1.containsAll(set2);
+## **Arrays**
+#### **copyOf**
+copyOf(int[] original,int newLength) method copies the specified array, truncating or padding with zeros (if necessary) so the copy has the specified length.
 
+```
+int[] org = new int[] {1, 2 ,3};
+int[] copy = Arrays.copyOf(org, 5); //copy = {1,2,3,0,0}
+int[] copy = Arrays.copyOf(org, 2); //copy = {1,2}
+```
 
 ## **Comparison**
 
