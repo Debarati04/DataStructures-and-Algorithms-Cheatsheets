@@ -237,6 +237,15 @@ public String replaceFirst(String regex, String replace_str)
 ```
 str.trim()
 ```
+#### **Join Strings by delimiters**
+```
+public static String join(CharSequence delimiter,CharSequence... elements)
+
+Eg:
+String[] sentence = {"a","bcd","de"};
+String.join("^",sentence);
+Output: a^bcd^de
+```
 
 #### **Capitalize first letter of string**
 ```
