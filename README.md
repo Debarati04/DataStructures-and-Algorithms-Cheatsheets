@@ -329,6 +329,30 @@ arrlist2 = {3,5,7};
 arrlist1.addAll(arrlist2) // {2,4,6,3,5,7}
 ```
 
+#### **Difference between arraylist.set(index, element) and arraylist.add(index, element)**
+set method replaces the element in the specified position with the new element. But in add(position, element) will add the element in the specified position and shifts the existing elements to right side of the array .
+```
+ArrayList<String> al = new ArrayList<String>();
+
+al.add("a");
+al.add(1, "b");
+System.out.println(al);
+
+al.set(0, "c");
+System.out.println(al);
+
+al.add(0, "d");
+System.out.println(al);
+
+---------------Output -------------------------------------
+
+[a, b]
+
+[c, b]
+
+[d, c, b]
+        
+```
 ## **Random class**
 #### **nextInt()**
 Returns the next pseudorandom, uniformly distributed int value from this random number generator's sequence.
