@@ -382,6 +382,14 @@ https://www.youtube.com/watch?v=NFJ3m9a1oJQ
 ## **Heaps**
 
 * Implemented using Priority Queue
+* Min Heap
+```
+PriorityQueue<Integer> minHeap = new PriorityQueue<Integer>();
+```
+* Max Heap
+```
+PriorityQueue<Integer> maxHeap = new PriorityQueue<>(Collections.reverseOrder());
+```
 
 ## **Regex**
 Regex is expensive, avoid wherever possible to improve runtime.
