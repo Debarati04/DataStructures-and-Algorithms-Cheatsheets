@@ -222,6 +222,9 @@ double ans = (double)(a/b);
 
 ## **String**
 
+#### **String split**
+https://thedeveloperblog.com/split-java
+
 #### **Split string by whiteSpace**
 ```
 String[] textWords = text.split(" ");
