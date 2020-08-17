@@ -1,4 +1,4 @@
-# Compilation of the most commonly used data structures and the methods in Java
+# Compilation of frequently used data structures and the methods in Java
 
 ## **Trees**
 Understanding O(log n) and basic recursive algo of binary tree:
