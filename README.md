@@ -353,6 +353,10 @@ System.out.println(al);
 [d, c, b]
         
 ```
+
+#### **subList()**
+The subList() method of java.util.ArrayList class is used to return a view of the portion of this list between the specified fromIndex, inclusive, and toIndex, exclusive. (If fromIndex and toIndex are equal, the returned list is empty.)
+
 ## **Random class**
 #### **nextInt()**
 Returns the next pseudorandom, uniformly distributed int value from this random number generator's sequence.
