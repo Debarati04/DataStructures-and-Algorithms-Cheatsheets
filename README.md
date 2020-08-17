@@ -391,6 +391,14 @@ PriorityQueue<Integer> minHeap = new PriorityQueue<Integer>();
 PriorityQueue<Integer> maxHeap = new PriorityQueue<>(Collections.reverseOrder());
 ```
 
+## **TreeMap**
+
+* Keys are always sorted
+* ceilingKey(key)
+  The ceilingKey() function of TreeMap Class returns the least key greater than or equal to the given key or null if the such a key is absent.
+* floorKey
+  The floorKey() method is used to return the greatest key less than or equal to given key from the parameter.
+  
 ## **Regex**
 Regex is expensive, avoid wherever possible to improve runtime.
 Example: replaceAll uses regex
